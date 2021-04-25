@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
       - name: Upload artifact and release
-        uses: flying-ufo/action-upload-artifacts-and-release@59779999c7667c42aac4e84c094cc7672ab9464a
+        uses: flying-ufo/action-upload-artifacts-and-release@main
         with:
           path: |
             x.txt
