@@ -23,6 +23,7 @@ jobs:
       - name: Upload artifact and release
         uses: EndBug/action-upload-artifacts-and-release-assets@permissions
         with:
+          github-token: WRONG
           path: |
             x.txt
             y.txt
