@@ -1,3 +1,5 @@
+# Changed!!!!
+
 name: CI
 
 on:
@@ -26,7 +28,3 @@ jobs:
             y.txt
           upload-release-files: true
           release-upload-url: ${{ steps.get_release.outputs.upload_url }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-          
