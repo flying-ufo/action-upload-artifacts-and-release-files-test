@@ -25,7 +25,6 @@ jobs:
       - name: Upload artifact and release
         uses: nanoufo/action-upload-artifacts-and-release-assets@main
         with:
-          github-token: WRONG
           path: |
             x.txt
             y.txt
