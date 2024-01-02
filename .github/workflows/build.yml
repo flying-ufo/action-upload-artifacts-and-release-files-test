@@ -23,7 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Upload artifact and release
-        uses: nanoufo/action-upload-artifacts-and-release-assets@main
+        uses: nanoufo/action-upload-artifacts-and-release-assets@fix/node-version-20
         with:
           path: |
             x.txt
