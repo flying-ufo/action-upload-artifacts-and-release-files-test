@@ -23,10 +23,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Upload artifact and release
-        uses: nanoufo/action-upload-artifacts-and-release-assets@fix/node-version-20
+        uses: ptc-lfruehstueck/action-upload-artifacts-and-release-assets@feature/upload2.0 
         with:
           path: |
             x.txt
             y.txt
-          upload-release-files: true
+          upload-release-files: false
           release-upload-url: ${{ steps.get_release.outputs.upload_url }}
