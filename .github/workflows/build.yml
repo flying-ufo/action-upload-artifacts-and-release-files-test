@@ -31,4 +31,4 @@ jobs:
           upload-release-files: false
           release-upload-url: ${{ steps.get_release.outputs.upload_url }}
       - name: Wait
-        run: sleep 30
+        run: sleep 60
